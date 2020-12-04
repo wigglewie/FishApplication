@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">FishApplication</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string-array name="categories">
+        <item>Рыба охлажденная</item>
+        <item>Морепродукты</item>
+        <item>Рыбное филе</item>
+        <item>Японская кухня</item>
+    </string-array>
+
+    <string-array name="weight_unit">
+        <item>Килограммы</item>
+        <item>Граммы</item>
+    </string-array>
+    <string name="title_activity_main">MainActivity</string>
+</resources>

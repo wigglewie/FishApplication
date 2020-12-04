@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/textView_field_id"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="id: "
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textView_value_id"
+        />
+
+    <TextView
+        android:id="@+id/textView_value_id"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="1337"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/textView_value_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Акула"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView_field_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Цена: "
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_value_name" />
+
+    <TextView
+        android:id="@+id/textView_field_price_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="$"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/textView_field_price"
+        app:layout_constraintTop_toBottomOf="@+id/textView_value_name" />
+
+    <TextView
+        android:id="@+id/textView_value_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="25"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/textView_field_price_icon"
+        app:layout_constraintTop_toBottomOf="@+id/textView_value_name" />
+
+    <TextView
+        android:id="@+id/textView_field_quantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Количество: "
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_field_price" />
+
+    <TextView
+        android:id="@+id/textView_value_quantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="158"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/textView_field_quantity"
+        app:layout_constraintTop_toBottomOf="@+id/textView_field_price" />
+
+    <TextView
+        android:id="@+id/textView_field_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Статус: "
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_field_quantity" />
+
+    <TextView
+        android:id="@+id/textView_value_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="в продаже"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/textView_field_status"
+        app:layout_constraintTop_toBottomOf="@+id/textView_value_quantity" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
